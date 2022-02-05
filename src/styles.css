@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#navbar {
+  height: 70px;
+  width: 100%;
+  padding: 10px;
+  background-color: gray;
+}
+
+body {
+  margin: 0;
+}
+header {
+  height: 130px;
+  background-color: #dbdbdb;
+  width: 100%;
+}
+.container {
+  width: 830px;
+  margin: 0px auto;
+}
+.wrap-content-header {
+  height: 130px;
+  color: #ffffff;
+  /* background-color: #FFFFFF; */
+  width: auto;
+}
+.wrap-logo {
+  width: 30%;
+  height: 130px;
+  float: left;
+  /* padding-top: 35px; */
+}
+.logo {
+  float: none;
+  margin: 0 auto;
+  height: 70px;
+  width: 180px;
+}
+.wrap-search {
+  width: 30%;
+  height: 130px;
+  float: left;
+  /* padding-top: 35px; */
+}
+.nav {
+  width: 35%;
+  padding-top: px;
+  float: right;
+  overflow: hidden;
+}
+.nav img {
+  display: inline-block;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
